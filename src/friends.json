@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Snoopy",
+    "count": 0,
+    "image": "https://vignette.wikia.nocookie.net/peanuts/images/8/8c/Peanuts.Snoopy_1970s.jpg/revision/latest?cb=20140117110912"
+  },
+  {
+    "id": 2,
+    "name": "Linus",
+    "count": 0,
+    "image": "https://static.comicvine.com/uploads/scale_small/3/37999/830371-linus.jpg"
+  },
+  {
+    "id": 3,
+    "name": "PigPen",
+    "count": 0,
+    "image": "https://vignette.wikia.nocookie.net/peanuts/images/b/bd/Pigpen.jpg/revision/latest?cb=20160715070328"
+  },
+  {
+    "id": 4,
+    "name": "Sally",
+    "count": 0,
+    "image": "http://www.peanuts.com/wp-content/themes/desktop-theme-peanuts/images/characters/round/sally.png"
+  },
+  {
+    "id": 5,
+    "name": "Woodstock",
+    "count": 0,
+    "image":     "https://vignette.wikia.nocookie.net/peanuts/images/e/eb/Woodstock5.jpg/revision/latest/scale-to-width-down/310?cb=2016050809230"
+  },
+  {
+    "id": 6,
+    "name": "Marcie",
+    "count": 0,
+    "image": "http://www.peanuts.com/wp-content/themes/desktop-theme-peanuts/images/characters/round/marcie.png"
+  },
+  {
+    "id": 7,
+    "name": "Schroeder",
+    "count": 0,
+    "image":     "https://vignette.wikia.nocookie.net/peanuts/images/8/87/Schroeder.jpg/revision/latest/scale-to-width-down/310?cb=2009030104265"
+  },
+  {
+    "id": 8,
+    "name": "Charlie Brown",
+    "count": 0,
+    "image": "https://vignette.wikia.nocookie.net/peanuts/images/b/b6/Charlie_Brown_smiling.png/revision/latest?cb=20170723213539"
+  },
+  {
+    "id": 9,
+    "name": "Peppermint Patty",
+    "count": 0,
+    "image": "https://vignette.wikia.nocookie.net/peanuts/images/a/a0/Peppermint_Patty.png/revision/latest?cb=20160715071317"
+  },
+  {
+    "id": 10,
+    "name": "Franklin",
+    "count": 0,
+    "image":     "https://vignette.wikia.nocookie.net/peanuts/images/0/0e/Franklin_%281%29.gif/revision/latest/scale-to-width-down/310?cb=2016102508275"
+  },
+  {
+    "id": 11,
+    "name": "Rerun",
+    "count": 0,
+    "image": "https://vignette.wikia.nocookie.net/peanuts/images/6/6b/Rerunvanpelt.jpg/revision/latest?cb=20160715070555"
+  },
+  {
+    "id": 12,
+    "name": "Lucy",
+    "count": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e9/Lucy_van_Pelt.png"
+  }
+]
