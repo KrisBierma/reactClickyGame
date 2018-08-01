@@ -8,7 +8,7 @@ const Header = props => (
     <div className="row">
       <h1 className="col-sm">
         Clicky Game
-      </h1>
+      </h1> 
       <div className="col-sm" id="directions">
         <p className="col-sm">Click an image to earn points, but don't click on any more than once!</p>
       </div>

@@ -22,7 +22,7 @@ class App extends Component {
       this.setState({highScore: this.state.score});
     }
 
-    //set each cards' count, the score back to 0 and remove shake class
+    //set each card's count, the score back to 0 and remove shake class
     this.state.friends.forEach(friends => {friends.count = 0;})
     this.setState({score: 0});
     this.removeShake();
@@ -35,18 +35,13 @@ class App extends Component {
   }
 
   handleGuesses = id => {
-    // console.log(this); //everything on this page
-    // console.log("id: "+id); //id of current click
-    // console.log(this.state.friends); //array of obj
-
     //search through friends to find the one clicked 
     for (var i=0; i< this.state.friends.length; i++){
-    // this.state.friends.find((friends, index) => {
       if (friends[i].id === id){
-        //if the current card count=1, restart game
+        //if the current card count=1 (used as a flag), restart the game
         if (friends[i].count === 1){
           this.setState({msg: "You guessed incorrectly!"});
-          //add shake class
+          //add shake class; signifies a missed guess
           this.state.classArr.push("shake");
           this.restartGame();
         }
@@ -63,12 +58,15 @@ class App extends Component {
       }
     }
   }
-
-  // Map over this.state.friends and render a FriendCard component for each friend object
+ 
   render() {
     return (
       <Wrapper>
+        {/* feed properties into the header: score, high score, message */}
         <Header score={this.state.score} highScore = {this.state.highScore} msg = {this.state.msg}>Friends List</Header>
+        
+        {/* Map over this.state.friends and render a FriendCard component for each friend object;
+        feed properties into the card: id, key, image, type(shake class or no classes), the handleGuesses function */}
         {this.state.friends.map(friend => (
           <FriendCard
             handleGuesses={this.handleGuesses}
