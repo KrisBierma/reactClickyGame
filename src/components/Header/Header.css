@@ -10,7 +10,8 @@ h1, #score{
   text-shadow: 2px 2px 4px #000000;
 }
 h1{
-  font-size:48px;
+  font-size:46px;
+  text-align: center;
 }
 #score{
   font-size: 24px;
