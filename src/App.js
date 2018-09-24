@@ -10,8 +10,7 @@ class App extends Component {
   // Setting this.state.friends to the friends json array -- state is the place where the data comes from
   state = {
     friends,
-    score: 0,
-    highScore: 0,
+    score: 0,    highScore: 0,
     msg: "",
     classArr:[]
   };

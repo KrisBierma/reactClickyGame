@@ -7,7 +7,7 @@ const Header = props => (
   <nav className="fixed-top navbar">
     <div className="row">
       <h1 className="col-sm">
-        Clicky Game
+        The Peanuts Game
       </h1> 
       <div className="col-sm" id="directions">
         <p className="col-sm">Click an image to earn points, but don't click on any more than once!</p>

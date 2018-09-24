@@ -1,6 +1,6 @@
 # React Clicky Game
 
-Clicky Game is built with React components and is deployed on GitHub Pages. 
+The Peanuts Game is built with React components and is deployed on GitHub Pages. 
 
 ## Instructions
 
