@@ -1,5 +1,5 @@
 {
-  "name": "react-clicky-game",
+  "name": "the-peanuts-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://krisbierma.github.io/reactClickyGame",
+  "homepage": "https://krisbierma.github.io/thePeanutsGame/",
   "devDependencies": {
     "gh-pages": "^1.2.0"
   }
