@@ -1,4 +1,4 @@
-# React Clicky Game
+# The Peanuts Game
 
 The Peanuts Game is built with React components and is deployed on GitHub Pages. 
 
