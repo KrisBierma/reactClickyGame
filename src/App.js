@@ -64,17 +64,19 @@ class App extends Component {
         {/* feed properties into the header: score, high score, message */}
         <Header score={this.state.score} highScore = {this.state.highScore} msg = {this.state.msg}>Friends List</Header>
         
-        {/* Map over this.state.friends and render a FriendCard component for each friend object;
-        feed properties into the card: id, key, image, type(shake class or no classes), the handleGuesses function */}
-        {this.state.friends.map(friend => (
-          <FriendCard
-            handleGuesses={this.handleGuesses}
-            id={friend.id}
-            key={friend.id}
-            image={friend.image}
-            type={this.state.classArr}
-          />
-        ))}
+        <div className='cardWrapper'>
+          {/* Map over this.state.friends and render a FriendCard component for each friend object;
+          feed properties into the card: id, key, image, type(shake class or no classes), the handleGuesses function */}
+          {this.state.friends.map(friend => (
+            <FriendCard
+              handleGuesses={this.handleGuesses}
+              id={friend.id}
+              key={friend.id}
+              image={friend.image}
+              type={this.state.classArr}
+            />
+          ))}
+        </div>
       </Wrapper>
     );
   }
